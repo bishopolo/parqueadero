@@ -5,6 +5,7 @@
 !captura_video.py
 !info.txt
 !parqueadero.py
+!roi_selector.py
 !.gitignore
 
 # Ignorar directorios comunes pero permitir los archivos específicos
