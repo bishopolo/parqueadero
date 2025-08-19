@@ -1,0 +1,33 @@
+# Ignorar todo por defecto
+*
+
+# Excepciones - archivos que SÍ queremos incluir
+!captura_video.py
+!info.txt
+!parqueadero.py
+!.gitignore
+
+# Ignorar directorios comunes pero permitir los archivos específicos
+*/
+!*/
+
+# Asegurar que ciertos directorios se ignoren completamente
+venv/
+__pycache__/
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+.cache
+nosetests.xml
+coverage.xml
+*.log
