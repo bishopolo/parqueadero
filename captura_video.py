@@ -94,7 +94,8 @@ import numpy as np
 import math
 
 # --- CONFIGURACIÓN ---
-video_source = 'http://192.168.1.6:8080/video'
+video_source = 'http://10.173.114.226:8080/video'
+# video_source = './videoPrueba.mp4'  # Ruta a un archivo de video local
 model = YOLO('yolov8n.pt')
 
 # --- MEMORIA DE OBJETOS ---

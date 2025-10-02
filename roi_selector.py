@@ -104,7 +104,7 @@ def main_roi_selector():
     global rois, image
     
     # 1. Carga la imagen de tu parqueadero (asegúrate de que esté en la misma carpeta)
-    image_path = 'parqueadero.jpg'
+    image_path = 'fotoPrueba.png'
     image = cv2.imread(image_path)
 
     if image is None:
