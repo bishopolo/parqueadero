@@ -1,0 +1,40 @@
+## Paso 1: Instalar Python
+Abre un navegador y ve a la página oficial de Python: https://www.python.org/downloads/
+
+Descarga el instalador para la versión más reciente de Python 3.
+
+Ejecuta el instalador. Durante la instalación, es CRUCIAL que marques la casilla que dice "Add Python to PATH" en la primera ventana. Esto te ahorrará muchos problemas.
+
+Haz clic en "Install Now" y espera a que el proceso termine.
+
+## Paso 2: Preparar el Entorno
+Abre el Símbolo del Sistema de Windows. Presiona la tecla Windows, escribe cmd y presiona Enter.
+
+Crea una carpeta para el proyecto. Puedes hacerlo en tu escritorio.
+
+cd Desktop
+mkdir proyecto_parqueadero
+cd proyecto_parqueadero
+
+
+Crea un entorno virtual. Esto es muy importante para que las librerías del proyecto no interfieran con otras de la computadora.
+
+`python -m venv venv`
+
+
+Activa el entorno virtual.
+
+Windows: 
+`venv\Scripts\activate`
+
+macOS y Linux: 
+source venv/bin/activate
+
+Verás que (venv) aparece al inicio de la línea, lo que confirma que está activado.
+
+## Paso 3: Instalar las Librerías
+Con el entorno virtual activado, instala todas las librerías necesarias.
+
+`pip install opencv-python numpy ultralytics`
+
+Esto puede tardar unos minutos, ya que instalará OpenCV, NumPy y la librería de YOLO con todas sus dependencias.
