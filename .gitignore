@@ -7,6 +7,11 @@
 !parqueadero.py
 !roi_selector.py
 !.gitignore
+!monitor_parqueadero.py
+!carros.py
+!README.md
+!videoPrueba.mp4
+!fotoPrueba.png
 
 # Ignorar directorios comunes pero permitir los archivos específicos
 */
